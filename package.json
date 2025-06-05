@@ -27,7 +27,11 @@
         "onCommand:extension.tmplpython",
         "onCommand:extension.tmplruby",
         "onCommand:extension.tmplxml",
-        "onCommand:extension.tmplvue"
+        "onCommand:extension.tmplvue",
+        "onCommand:extension.tmplcpp",
+        "onCommand:extension.tmplhpp",
+        "onCommand:extension.tmplc",
+        "onCommand:extension.tmplh"
     ],
     "main": "./out/src/extension",
     "contributes": {
@@ -67,6 +71,22 @@
             {
                 "command": "extension.tmplvue",
                 "title": "Tmpl vue: Create Vue Template"
+            },
+            {
+                "command": "extension.tmplcpp",
+                "title": "Tmpl cpp: Create CPP Template"
+            },
+            {
+                "command": "extension.tmplhpp",
+                "title": "Tmpl hpp: Create HPP Template"
+            },
+            {
+                "command": "extension.tmplc",
+                "title": "Tmpl c: Create C Template"
+            },
+            {
+                "command": "extension.tmplh",
+                "title": "Tmpl h: Create H Template"
             }
         ]
     },
