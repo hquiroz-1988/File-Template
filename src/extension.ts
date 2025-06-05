@@ -56,6 +56,10 @@ export function activate(context: vscode.ExtensionContext) {
         { cmd: 'tmplruby', languageId: 'ruby' },
         { cmd: 'tmplxml', languageId: 'xml' },
         { cmd: 'tmplvue', languageId: 'vue' },
+        { cmd: 'tmplcpp', languageId: 'cpp' },
+        { cmd: 'tmplhpp', languageId: 'hpp' },
+        { cmd: 'tmplc', languageId: 'c' },
+        { cmd: 'tmplh', languageId: 'h' },
     ].forEach((e: CmdInterface) => {
         let TmplCmd = vscode.commands.registerCommand('extension.' + e.cmd, () => {
             const editor = vscode.window.activeTextEditor;
